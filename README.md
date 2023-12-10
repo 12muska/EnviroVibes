@@ -11,7 +11,8 @@ The JavaScript file contains the logic for fetching weather data from the OpenWe
 Code Explanation:
 index.html:
 html
-Copy code
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,7 +45,8 @@ It has a title, a container with a heading, an input field for the city, a butto
 The Bootstrap classes are used for styling.
 style.css:
 css
-Copy code
+
+
 body {
     background-color: #f8f9fa;
 }
@@ -53,7 +55,8 @@ body {
 The CSS file sets the background color of the body to a light gray.
 script.js:
 javascript
-Copy code
+
+
 function getWeather() {
     const cityInput = document.getElementById('cityInput');
     const weatherInfo = document.getElementById('weatherInfo');
